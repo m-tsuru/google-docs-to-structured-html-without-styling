@@ -1,0 +1,21 @@
+{
+  "timeZone": "Asia/Tokyo",
+  "dependencies": {},
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.container.ui",
+    "https://www.googleapis.com/auth/documents"
+  ],
+  "addOns": {
+    "common": {
+      "name": "Structured HTML Without Styling",
+      "logoUrl": "https://ssl.gstatic.com/docs/script/images/logo/script-64.png"
+    },
+    "docs": {
+      "onFileScopeGrantedTrigger": {
+        "runFunction": "onOpen"
+      }
+    }
+  }
+}
